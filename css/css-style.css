@@ -164,6 +164,9 @@ _______________________________________________________*/
 .countdownHolder .digit-count:nth-child(2) {margin-right: 0;}
 .countdownHolder .counter-list:first-child .label {width: calc(100% - 15px);}
 .countdownHolder .counter-list:nth-child(4) .label {width: calc(100% - 15px); left: unset; right: 0;}
+#demo{
+    font-size: 25px;
+}
 
 /*---------- About Section ------------*/
 .watch-video {display: flex; align-items: center; padding-top: 15px;}
