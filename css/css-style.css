@@ -33,6 +33,7 @@
     
 * FOOTER
 */
+@import url('https://fonts.googleapis.com');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 /*_______________________________________________________
@@ -142,10 +143,10 @@ _______________________________________________________*/
 _______________________________________________________*/
 /*---------- Banner Section ------------*/
 .home-banner {padding-top: 240px; padding-bottom: 140px; overflow: hidden;}
-.home-banner:before {content: ""; background: url(../images/images-banner-pattern.png); position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-repeat: no-repeat; opacity: 0.1; background-position: center; background-size: cover; animation: ripple 10s infinite; transition: all 400ms ease;}
+.home-banner:before {content: ""; background: url(../images/images-banner-pattern.png); position: absolute; top: 0; left: 0; width: 100%; height: 100vh; background-repeat: no-repeat; opacity: 0.1; background-position: center; background-size: cover; animation: ripple 10s infinite; transition: all 400ms ease;}
 @keyframes ripple{0%{transform: scale(1);}50%{transform: scale(1.15);}100%{transform: scale(1);}}
-.banner-title {font-size: 80px; line-height: 40px; padding-bottom: 25px;}
-.banner-heading p {font-size: 14px; line-height: 25px; max-width: 600px; margin: 0 auto; animation-delay: 0.3s;}
+.banner-title {text-shadow: 4px 4px  #3326b1;font-size: 80px; line-height: 40px; padding-bottom: 25px;}
+.banner-heading p {font-family: 'Montserrat', sans-serif;font-size: 14px; line-height: 25px; max-width: 600px; margin: 0 auto; animation-delay: 0.3s;}
 .countdownHolder {font-size: 45px; line-height: 45px; font-weight: 500; padding-top: 70px; display: flex; justify-content: center; margin-bottom: 100px; animation-delay: 0.6s;}
 .home-banner .button {animation-delay: 0.9s;}
 .countdownHolder .counter-list {display: flex; position: relative; padding: 0px 15px; margin: 0; flex-wrap: wrap;}
@@ -263,7 +264,7 @@ _______________________________________________________*/
 .nav-tabs .nav-link {font-size: 18px; line-height: 18px; text-transform: uppercase; padding: 12px 30px; display: inline-block; border-radius: 5px; position: relative; overflow: hidden; z-index: 0; border: 0; font-size: 14px;}
 .nav-tabs .nav-link:before {content: ""; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; transition: all 400ms ease; opacity: 0;}
 .nav-tabs .nav-link.active:before,
-.nav-tabs .nav-link:hover:before {opacity: 1;}
+.nav-tabs .nav-link:hover:before {opacity: 1; }
 .tab-content>.active {display: flex; flex-wrap: wrap; margin: 0px -15px;}
 .faq-box {width: 50%; padding: 0px 15px;}
 .faq-content .nav {padding-bottom: 35px;}
