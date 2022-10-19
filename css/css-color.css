@@ -1,0 +1,154 @@
+body {color: #d9d9d9;}
+a, .button {color: #fff;}
+a:hover, .button:hover {color: #fff;}
+a:hover {color: #f28892;}
+.button {background-image: linear-gradient(to right, #3326b1 , #f28892);}
+.button:before {background: linear-gradient(to right, #f28892, #3326b1);}
+.purple {background: #520202;}
+.bluish-purple {background: #4a0000;}
+.sub-title {color: #f28892;}
+.read-more {color: #f28892;}
+.read-more:hover {color: #fff;}
+.owl-dots .owl-dot span {background: transparent;}
+.owl-dots .owl-dot.active span {background: #f28892;}
+.owl-dots .owl-dot {border-color: #fff;}
+.form-control {background: #210e6c; color: #fff;}
+.form-control:focus, input:focus {background: #210e6c; color: #fff;}
+.form-control::-webkit-input-placeholder, input::-webkit-input-placeholder {color: rgba(255, 255, 255, 0.4);}
+.form-control:-ms-input-placeholder, input:-ms-input-placeholder {color: rgba(255, 255, 255, 0.4);}
+.form-control::placeholder, input::placeholder {color: rgba(255, 255, 255, 0.4);}
+.title:before {background: #fff;}
+h1, h2, h3, h4, h5, h6 {color: #fff;}
+#preloader {background: #4a0000;}
+@keyframes dots {
+  0%, 20% {color: rgba(0,0,0,0); text-shadow: .25em 0 0 rgba(0,0,0,0), .5em 0 0 rgba(0,0,0,0);}
+  40% {color: white; text-shadow: .25em 0 0 rgba(0,0,0,0), .5em 0 0 rgba(0,0,0,0);}
+  60% {text-shadow: .25em 0 0 white, .5em 0 0 rgba(0,0,0,0);}
+  80%, 100% {text-shadow: .25em 0 0 white, .5em 0 0 white;}
+}
+.breadcum li {color: #fff;}
+.breadcum li:before {background: #fff;}
+/*---------- Header Style ------------*/
+.header {background: transparent;}
+.header.sticky {background: #520202; box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.1);}
+.nav-menu > ul > li.active > a,
+.nav-menu > ul > li:hover > a {color: #f28892;}
+.nav-menu > ul > li > a:before {background: #f28892;}
+.nav-menu > ul ul {background: #3326b1;}
+.nav-menu > ul ul li a:before {background: #f28892;}
+.nav-menu > ul ul li.active a,
+.nav-menu > ul ul li:hover a {color: #f28892;}
+.nav-menu > ul ul:before {border-color: transparent transparent #3326b1 transparent;}
+/*---------- HOME PAGE ------------*/
+.home-banner {background: linear-gradient(135deg, #ad0202 10%, #6b1010 50%, #370303 90%);}
+.home-banner {background: linear-gradient(135deg, #ad0202 10%, #6b1010 50%, #370303 90%);}
+.countdownHolder .counter-list:before,
+.countdownHolder .counter-list:after {background: #d9d9d9;}
+.countdownHolder .digit-count {background: #9a2222;}
+.watch-video .text {color: #fff;}
+.watch-video .icon i {color: #fff;}
+.watch-video .text:hover {color: #f28892;}
+.watch-video .icon:after {background: #520202;}
+.watch-video .icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.feature-title:before {background: #f28892;}
+.feature-title:before {background: #f28892;}
+.roadmap-icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.roadmap-icon:after {background: #520202;}
+.map-year {color: #f28892;}
+.roadmap-slider:before, .roadmap-box:before, .roadmap-box:after {background: #f28892;}
+.roadmap-icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.roadmap-icon:after {background: #520202;}
+.roadmap-box:after {background: #f28892;}
+.team-box ul li a {color: #f28892;}
+.team-img {border-color: #f28892;}
+.team-box ul li a:hover {color: #fff;}
+.blog-boxs .blog-authore:before {background: #f28892;}
+.nav-tabs {border-bottom: unset;}
+.nav-tabs .nav-link{background: linear-gradient(to right, #520202 , #520202); color: #fff !important; transition: all 400ms ease;}
+.nav-tabs .nav-link:before {background-image: linear-gradient(to right, #3326b1 , #f28892);}
+.partners-grid {border-color: #3d276b !important;}
+.faq-box-in {background: #520202;}
+.faq-title {color: #fff;}
+/*---------- ABOUT PAGE ------------*/
+.page-banner {background: linear-gradient(135deg, #ad0202 30%, #6b1010 50%, #370303 70%);}
+.play-icon span i {color: #520202;}
+.play-icon span:after {background: #fff;}
+.play-icon span:before {background: linear-gradient(115deg, #3329b2 0%, #f28892 100%);}
+.mission-video .play-icon {background: rgba(37, 4, 102, 0.8);}
+.play-icon:hover span:after {background: #520202;}
+.play-icon:hover span i {color: #fff;}
+.modal-content .close {background: #fff;}
+/*---------- BLOG LIST PAGE ------------*/
+.blog-search input {border-color: #f28892; color: #fff;}
+.blog-search-btn {background: #f28892; color: #fff;}
+.blog-search-btn:hover {background: #3326b1;}
+.blog-category {background: #520202;}
+.blog-category ul li:before {background: #f28892;}
+.blog-category ul li a {color: #d9d9d9;}
+.blog-category ul li a:hover {color: #f28892;}
+.trending-news-date {color: #f28892;}
+.blog-tags ul li a {background: #520202; color: #fff;}
+.blog-tags ul li a:before {background: linear-gradient(to right, #f28892, #3326b1);}
+.archives ul li {border-color: rgba(10, 198, 212, 0.14);}
+.blog-list-content ul li:before {background: #fff;}
+.blog-list-pagination ul li a {background: #520202;}
+.blog-list-pagination ul li a:hover {color: #fff;}
+.blog-list-pagination ul li a:before {background: linear-gradient(to right, #f28892, #3326b1);}
+/*---------- BLOG DETAIL PAGE ------------*/
+.blog-detail-content ul li:before {background: #fff;}
+.blog-detail-content p {margin-bottom: 25px;}
+.blog-detail-content blockquote {background: #520202; border-color: #f28892;}
+.blog-detail-tag-social, .blog-comment-post-singel {border-color: rgba(255, 255, 255, 0.1);}
+.blog-detail-tag ul li a, .blog-detail-social ul li a {background: #520202; color: #fff;}
+.blog-detail-tag ul li a:before, .blog-detail-social ul li a:before {background-image: linear-gradient(to right, #3326b1 , #f28892);}
+.blog-detail-tag-social, .blog-comment-post-singel {border-color: rgba(255, 255, 255, 0.1);}
+/*---------- CONTACT PAGE ------------*/
+.contact-content ul li .contact-icon:after {background: #4a0000;}
+.contact-content ul li .contact-icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.contact-content ul li .contact-label {color: #fff;}
+.contact-content ul li a.contact-label:hover {color: #f28892;}
+.contactfrmmsg {border-color: #33c741; color: #33c741;}
+/*---------- ROADMAP PAGE ------------*/
+.vertical-roadmap:after {background: #fff;}
+.vertical-roadmap:before {background: #fff;}
+.vertical-roadmap-line:after {border-color: #f28892; background: #4a0000;}
+.vertical-roadmap-line:before {border-color: #f28892; background: #4a0000;}
+.vertical-content:before {border-color: #f28892;}
+.vertical-content {background: #520202;}
+.vertical-content:hover {background: #240368;}
+.vertical-icon:after {background: #4a0000;}
+.vertical-icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.vertical-roadmap-line {background: #f28892;}
+/*---------- TOKEN SALE PAGE ------------*/
+.coins-progress span {background: linear-gradient(to right, #f28892, #3326b1);}
+.coins-progress {background: #fff;}
+.token-slide-info:before {background: #09718c;}
+.coins-counter-loop li:before, .coins-counter-loop li:after {background: #fff;}
+.coins-counter-loop li label {color: #f28892;}
+.coins-counter-loop li span {color: #fff;}
+.token-sale-counter {background: #520202;}
+.coins-progress span {background: linear-gradient(to right, #f28892, #3326b1);}
+/*---------- LOGIN PAGE ------------*/
+.checkbox:checked + label::after {border-color: #ffffff;}
+.checkbox + label::before {border-color: #fff;}
+.login-btn-g {border-color: rgba(255, 255, 255, 0.2)}
+.forgot-password {color: #f28892;}
+.forgot-password:hover {color: #fff;}
+.new-account .link {color: #f28892;}
+.new-account .link:hover {color: #fff;}
+/*---------- FOOTER STYLE ------------*/
+.copyright {border-color: rgba(255, 255, 255, 0.1);}
+.copyright p a {text-decoration: underline;}
+.copyright a {color: #f28892;}
+.copyright a:hover {color: #fff;}
+.contact-link li .contact-icon:before {background: linear-gradient(135deg, #3329b2 0%, #f28892 100%);}
+.contact-link li .contact-icon:after {background: #520202;}
+@media(max-width: 1024px){
+	.header {background: #520202;}
+	.main-menu {background: #520202; border-top-color: rgba(255, 255, 255, 0.1) !important;}
+	.menu-toggle span, .menu-toggle span:before, .menu-toggle span:after {background: #fff;}
+	.menu-toggle.active span {background: transparent;}
+	.nav-menu > ul > li.menu-dropdwon > a:before, .nav-menu > ul > li.menu-dropdwon > a:after {background: #fff;}
+	.login-box .button:before {opacity: 0;}
+	.login-box .button:hover, .login-box .button.active {color: #f28892;}
+}
