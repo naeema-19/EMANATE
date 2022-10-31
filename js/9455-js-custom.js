@@ -249,7 +249,7 @@ $(function(){
     /* initialization main script */
     $(function(){
         var note = $('#note'),
-            ts = new Date(2022,9,31),
+            ts = new Date(),
             newYear = true;
         if((new Date()) > ts){
             // The new year is here! Count towards something else.
