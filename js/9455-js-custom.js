@@ -120,7 +120,7 @@ $(function(){
 
         /* -------- Countdown Timer ------- */
         if ($(".coins-counter-loop").length > 0) {
-            var your_date = ' 00:00:00';
+            var your_date = '2022-10-31 00:00:00';
             var second = 1000,
                 minute = second * 60,
                 hour = minute * 60,
@@ -249,7 +249,7 @@ $(function(){
     /* initialization main script */
     $(function(){
         var note = $('#note'),
-            ts = new Date(),
+            ts = new Date(/*2022,9,31*/),
             newYear = true;
         if((new Date()) > ts){
             // The new year is here! Count towards something else.
